@@ -29,6 +29,9 @@ class World_object:
     def __init__(self, x_pos, y_pos, world):
         self.x_pos = x_pos
         self.y_pos = y_pos
+        self.detected = False
+        self.identified = False
+        self.interacted = False
         world.add_world_object(self)
 
 
